@@ -21,7 +21,7 @@ public class StudentEnrollment {
             System.out.println(student);
         }
 
-        // Update major for one student by creating a new instance with the updated major
+
         StudentRecord updatedStudent1 = new StudentRecord(student1.studentId(), student1.firstName(), student1.lastName(), student1.age(), "Data Science");
 
     }
